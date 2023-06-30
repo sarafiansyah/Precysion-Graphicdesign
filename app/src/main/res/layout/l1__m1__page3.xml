@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Linear Layout with vertical orientation and other properties -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    tools:context=".LoginMain02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="100dp"
+
+        >
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:padding="30dp"
+            app:srcCompat="@drawable/l1m1_asset02" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design is not just about making things pretty; it is about making something functional and attractive at the same time." />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe Left To Continue..." />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Precysion</string>
+    <string name="app_version" translatable="false">1.0</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="nav_open" translatable="false">Open</string>
+    <string name="nav_close" translatable="false">Close</string>
+    <string name="selected_language">English</string>
+    <string name="language">Hi, GFG</string>
+</resources>

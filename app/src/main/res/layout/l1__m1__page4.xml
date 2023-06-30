@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Linear Layout with vertical orientation and other properties -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:fillViewport="true"
+    tools:context=".L1_M1_Course">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="100dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:padding="30dp"
+            app:srcCompat="@drawable/l1m1_asset03" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design is about figuring out the real problems and then providing the most feasible solutions. The solutions should address the real issues of real individuals." />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/l1_m1_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FINISH" />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

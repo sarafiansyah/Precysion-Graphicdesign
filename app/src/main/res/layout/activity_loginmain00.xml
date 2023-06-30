@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="28dp"
+    android:paddingRight="28dp"
+    android:paddingTop="28dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="301dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/precysion_logo01"
+        app:tint="@color/black" />
+
+    <TextView
+        android:fontFamily="@font/poppins_regular"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign in to continue" />
+
+    <TextView
+        android:fontFamily="@font/poppins_regular"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please sign in using one of the following:" />
+
+
+
+    <!-- Button for register with text "Register" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:fontFamily="@font/poppins_regular"
+            android:id="@+id/mainEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ui_email2"
+            android:text="Email"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:fontFamily="@font/poppins_regular"
+            android:id="@+id/mainGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ui_google"
+            android:text="Google" />
+
+
+        <Button
+            android:id="@+id/mainGuest"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ui_people2"
+            android:text="Guest"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:fontFamily="@font/poppins_regular"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By continuing, you agree to Precysion's Terms of Use. Read our Privacy Policy." />
+
+    <!-- ProgressBar for loading time -->
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

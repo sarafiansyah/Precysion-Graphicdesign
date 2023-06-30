@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/person"
+        android:fontFamily="@font/poppins_regular"
+        android:title="Home"
+        android:icon="@drawable/ui_dash"/>
+    <item
+        android:id="@+id/learn"
+        android:fontFamily="@font/poppins_regular"
+        android:title="Learn"
+        android:icon="@drawable/ui_book"/>
+
+    <item
+        android:id="@+id/settings"
+        android:fontFamily="@font/poppins_regular"
+        android:title="Discover"
+        android:icon="@drawable/ui_search"/>
+
+    <item
+        android:id="@+id/projects"
+        android:fontFamily="@font/poppins_regular"
+        android:title="Utilities"
+        android:icon="@drawable/ui_project"/>
+
+    <item
+        android:id="@+id/account"
+        android:fontFamily="@font/poppins_regular"
+        android:title="Credits"
+        android:icon="@drawable/ui_people"/>
+
+</menu>
